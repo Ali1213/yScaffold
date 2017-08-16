@@ -3,10 +3,10 @@
 
 # `dataHandle`
 
-## formatDate(date,fmt)
+## formatDate([date,]fmt)
 
-+ date: 为时间对象
-+ fmt: 字符串，YYYY/YY替换为年,MM替换为月,DD替换为天，hh，mm，ss分别替换为时分秒
++ date: 为时间对象，默认为new Date();
++ fmt: 字符串，yyyy/yy替换为年,MM替换为月,dd替换为天，hh，mm，ss分别替换为时分秒,q/qq替换为季度,SS替换为毫秒
 + 返回值为处理后的字符串
 
 ### 测试要求
